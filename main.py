@@ -39,10 +39,13 @@ def main():
 
     print("Plotting graph")
 
-    plt.plot(range(36), recursive_times, label="Recursive")
-    plt.plot(range(36), iterative_times, label="Iterative")
-    plt.plot(range(36), logical_times, label="Logical")
-    plt.legend()
+    ax = plt.subplot()
+    ax.plot(range(36), recursive_times, label="Recursive")
+    ax.plot(range(36), iterative_times, label="Iterative")
+    ax.plot(range(36), logical_times, label="Logical")
+    ax.set_xlabel("n")
+    ax.set_ylabel("Execution Time (Seconds)")
+    ax.legend(frameon=False)
     plt.show()
 
     print("Done!")
