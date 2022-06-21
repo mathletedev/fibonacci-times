@@ -32,4 +32,4 @@ F(n) = (φⁿ⁺¹ - (1 - φ)ⁿ⁺¹) / √5
 
 ## Results
 
-![graph](https://user-images.githubusercontent.com/63214683/174754942-939f13b1-7aa1-4570-b056-d75f29256467.png)
+![graph](https://user-images.githubusercontent.com/63214683/174757364-ec74ffbf-36b7-4432-a2ab-ffdc70626b01.png)
